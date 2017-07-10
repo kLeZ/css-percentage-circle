@@ -6,3 +6,8 @@ Since I found nothing like this on github and I needed the source code in LESS, 
 
 Thanks a lot to André Firchow, who developed this circle. For more information go to his blog: http://firchow.net/css3-prozentanzeige-kreis/.
 A live demo can be found here: http://circle.firchow.net/
+
+
+Fork note
+=========
+I only added two colors (brown and purple) in the palette (not sure if colors will be fine, I'm not a designer).
