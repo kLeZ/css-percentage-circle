@@ -1063,3 +1063,31 @@
 .c100.orange.dark:hover > span {
   color: #e08833;
 }
+.c100.brown .bar,
+.c100.brown .fill {
+  border-color: #be6e46 !important;
+}
+.c100.brown:hover > span {
+  color: #be6e46;
+}
+.c100.brown.dark .bar,
+.c100.brown.dark .fill {
+  border-color: #e7cabb !important;
+}
+.c100.brown.dark:hover > span {
+  color: #e7cabb;
+}
+.c100.purple .bar,
+.c100.purple .fill {
+  border-color: #331832 !important;
+}
+.c100.purple:hover > span {
+  color: #331832;
+}
+.c100.purple.dark .bar,
+.c100.purple.dark .fill {
+  border-color: #8d6a9f !important;
+}
+.c100.purple.dark:hover > span {
+  color: #8d6a9f;
+}
