@@ -9,6 +9,8 @@
 
 @primary-color-green: #4db53c;
 @primary-color-orange: #dd9d22;
+@primary-color-brown: #be6e46;
+@primary-color-purple: #331832;
 
 
 // colors dark skin
@@ -18,6 +20,8 @@
 
 @primary-color-green-dark: #5fd400;
 @primary-color-orange-dark: #e08833;
+@primary-color-brown-dark: #e7cabb;
+@primary-color-purple-dark: #8d6a9f;
 
 // mixins
 @import "mixins.less";
@@ -232,6 +236,44 @@
 
         &:hover{
             > span { color: @primary-color-orange-dark;}
+        }
+    }
+
+    // brown skin
+    &.brown{
+
+        .bar, .fill { border-color: @primary-color-brown !important;}
+
+        &:hover{
+            > span { color: @primary-color-brown;}
+        }
+    }
+
+    &.brown.dark{
+
+        .bar, .fill { border-color: @primary-color-brown-dark !important;}
+
+        &:hover{
+            > span { color: @primary-color-brown-dark;}
+        }
+    }
+
+    // purple skin
+    &.purple{
+
+        .bar, .fill { border-color: @primary-color-purple !important;}
+
+        &:hover{
+            > span { color: @primary-color-purple;}
+        }
+    }
+
+    &.purple.dark{
+
+        .bar, .fill { border-color: @primary-color-purple-dark !important;}
+
+        &:hover{
+            > span { color: @primary-color-purple-dark;}
         }
     }
 }
