@@ -3,28 +3,30 @@
 @circle-width-hover: 0.04em;
 
 // colors default
+@fore-color: #000;
 @primary-color: #307bbb;
-@secondary-color: #000;
+@secondary-color: #ccc;
 @bg-color: #fff;
 
 @primary-color-green: #4db53c;
 @primary-color-orange: #dd9d22;
-@primary-color-brown: #be6e46;
+@primary-color-brown: #8B4513;
 @primary-color-purple: #331832;
 
 
 // colors dark skin
+@fore-color-dark: #fff;
 @primary-color-dark: #c6ff00;
 @secondary-color-dark: #777;
 @bg-color-dark: #666;
 
 @primary-color-green-dark: #5fd400;
 @primary-color-orange-dark: #e08833;
-@primary-color-brown-dark: #e7cabb;
-@primary-color-purple-dark: #8d6a9f;
-
-// mixins
-@import "mixins.less";
+@primary-color-brown-dark: #DFCCBE;
+@primary-color-purple-dark: #B6A0C1;
+		 
+// mixins		
+@import "mixins.less";		
 
 // CIRCLE
 // classes 2 extend
@@ -88,7 +90,7 @@
         width: 5em;
         line-height: 5em;
         font-size: 0.2em;
-        color: @secondary-color;
+        color: @fore-color;
         display: block;
         text-align: center;
         white-space: nowrap;
@@ -185,7 +187,7 @@
         }
 
         > span {
-            color: @secondary-color-dark;
+            color: @fore-color-dark;
         }
 
 
